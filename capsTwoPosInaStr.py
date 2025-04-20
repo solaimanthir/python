@@ -3,7 +3,7 @@ def capitalizeTwoLetters(pos1, pos2, inStr):
     lenStr = len(inStr)
     
     if lenStr < 1 or pos1 < 0 or pos1 >= lenStr or pos2 < 0 or pos2 >= lenStr or pos1 > pos2:
-        return "error in inputs {} {} {}".format(pos1, pos2, inStr)
+        return "error in inputs pos1 - {} pos2 - {} str - {}".format(pos1, pos2, inStr)
     else:
         if pos1 == pos2:
             #concatenate portion before pos1 and portion from pos1 with pos1 capitalized
