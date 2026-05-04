@@ -13,3 +13,4 @@ def checkInRangeOf50Or500(num):
 print(checkInRangeOf50Or500(43))
 print(checkInRangeOf50Or500(503))
 print(checkInRangeOf50Or500(100))
+#end of the file
