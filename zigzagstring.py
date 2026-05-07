@@ -1,3 +1,4 @@
+# constructs a zig zag string on given input
 def myfunc(mystr):
     newstr = ''
     idx = 1
